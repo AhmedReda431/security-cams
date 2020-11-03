@@ -1,0 +1,177 @@
+body{
+    font-family: sans-serif;
+}
+
+header .myCarousel img{
+    width: 100%;
+    height: 500px;
+}
+.myCarousel .myCaroussel-holder #carouselExampleIndicators .fas {
+    color: #fff;
+    padding: 20px;
+}
+/***********************************************************/
+.company-hint{
+    padding: 5% 0;
+}
+/************************************************/
+.cont{
+    padding: 2% 0 1%;
+    background-color: #283848;
+    color: #fff;
+}
+.cont .cont-holder ul li:first-of-type,.rights ul li:first-of-type {
+    float: left;
+}
+.cont .cont-holder ul li:nth-of-type(2),.rights ul li:nth-of-type(2){
+    float: right;
+}
+.cont .cont-holder button{
+    margin-top: 23px;
+}
+.cont .cont-holder button a{
+    text-decoration: none;
+    color: #fff;
+}
+/************************************************/
+footer{
+    background-color: #2C3E50;
+    color: #8D9CA4;
+    padding: 5% 0 0;
+}
+footer h2{
+    color: #fff;
+}
+footer .row .col:hover{
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+footer .row .col ul li{
+    border-bottom: 2px dashed;
+    line-height: 2.3;
+    width: 90%;
+}
+footer .row .col ul li:last-of-type{
+    border-bottom: none;
+}
+footer .rights{
+    margin-top: 18px;
+    background-color: #283848;
+    color: #fff;
+    padding: 15px 50px 0;
+}
+footer .rights ul li:first-of-type {
+    float: left;
+}
+footer .rights ul li:nth-of-type(2){
+    float: right;
+}
+/***************** About us page*******************************/
+.About-Our-company{
+    padding: 3% 0;
+    background-color: #fff;
+}
+.About-Our-company .About-Our-company-holder h1{
+    margin-bottom: 35px;
+}
+.About-Our-company .About-Our-company-holder .row .col img{
+    width: 100%;
+}
+
+/***************** service info page*******************************/
+.main .main-holder img{
+    width: 100%;
+    background-size: cover;
+}
+.company-hint2{
+    padding: 2% 0;
+}
+.company-hint p , .company-hint2 p{
+    font-size: 30px;
+}
+
+/*************************** global ********************/
+.first-row{
+    padding: 3% 0 1%;
+}
+.second-row,.third-row,.fourth-row{
+    padding: 1% 0;
+}
+.card{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.card img{
+    height: 330px;
+}
+
+.about-contactUs .about-contactUs-holder .row .col form{
+    padding-top: 5%;
+}
+.about-contactUs .about-contactUs-holder p:first-of-type{
+    padding:0 3%
+}
+
+.info-carousel{
+    padding: 1% 0 6%;
+}
+.info-carousel .myIndecator{
+    bottom: -75px;
+}
+
+.carousel-indicators li{
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.about-contactUs{
+    background-color: #ddd;
+    padding: 1% 0;
+}
+.products {
+    padding: 2% 0;
+}
+.products .products-holder .container> div{
+    margin-bottom: 100px;
+}
+.products .products-holder img{
+    height: 320px;
+} 
+.products .products-holder .fa-chevron-circle-left,.products .products-holder .fa-chevron-circle-right{
+    color: #000;
+}
+
+
+.social ul li{
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.social ul li i.fa-facebook-f{
+    border: 2px solid;
+    padding: 13px 19px;
+    border-radius: 50%;
+    font-size: 21px;
+}
+
+.social ul li i.fa-twitter{
+    border: 2px solid;
+    padding: 13px;
+    border-radius: 50%;
+    font-size: 21px;
+}
+
+.social ul li i.fa-instagram{
+    border: 2px solid;
+    padding: 14px 16px;
+    border-radius: 50%;
+    font-size: 21px;
+}
+
+.alert {
+    padding: 4px 15px;
+    margin-top: 5px;
+    display: none
+}

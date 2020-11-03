@@ -1,0 +1,92 @@
+@media(max-width:569.98px){
+    .card{
+        width: auto !important;
+    }
+    .row{
+        display:block
+    }
+    .myCarousel img{
+        height: 250px;
+    }
+    
+}
+@media (min-width:570px)and(max-width:767px){
+    .row{
+        display:block
+    }
+    .row .col{
+        margin: 0 6%;
+    }
+    .myCarousel img{
+        height: 250px;
+    }
+
+    .info-carousel{
+        padding: 2% 0 15% 0;
+        left: 20px;
+    }
+    .cont{
+        padding: 4% 0 1%;
+    }
+    .cont .cont-holder button{
+        margin: 23px -181% 0;
+    }
+    .About-Our-company .About-Our-company-holder .row .col,.products .products-holder .row .col{
+        flex-basis: auto;
+    }
+    .products .products-holder a{
+        margin-bottom: 45px;
+    }
+    .about-contactUs .about-contactUs-holder .row .col form{
+        margin-top: 25px;
+    }
+    .social{
+        margin-left: 22%;
+    }
+    footer .rights ul li:first-of-type{
+        margin: 0px 0 0 120px;
+    }
+    footer .rights ul li:nth-of-type(2){
+        margin: 0 54px 0;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px){
+    .row .col{
+        margin: 0 23%;
+    }
+    .info-carousel{
+        padding: 2% 0 15% 0;
+        left: 20px;
+    }
+    .cont{
+        padding: 4% 0 1%;
+    }
+    .cont .cont-holder button{
+        margin:0;
+    }
+    .About-Our-company .About-Our-company-holder .row .col,.products .products-holder .row .col{
+        flex-basis: auto;
+    }
+    .About-Our-company .About-Our-company-holder .row .col img{
+        margin-bottom: 30px;
+    }
+    .products .products-holder a{
+        margin-bottom: 45px;
+    }
+    .about-contactUs .about-contactUs-holder .row .col form{
+        margin-top: 25px;
+    }
+    .social{
+        margin-left: 22%;
+    }
+    footer .row .col,.About-Our-company .row .col,.about-contactUs .row .col{
+        margin: 0;
+    }
+    footer .rights ul li:first-of-type{
+        margin: 0px 0 0 120px;
+    }
+    footer .rights ul li:nth-of-type(2){
+        margin: 0 54px 0;
+    }
+}
